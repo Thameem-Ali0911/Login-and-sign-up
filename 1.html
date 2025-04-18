@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <center>
+	
+    <form action="/submit-login" method="post">
+	<div>
+    <p><h2>Sign Up</h2></p>
+	</div><br><br>
+        <div>
+		
+	    <label>First Name :</label>
+            <input type="text" id="fname" placeholder="First Name" required>
+        </div>
+        <br>
+        <div>
+            <label>Last Name :</label>
+            <input type="text" id="lname" placeholder="Last Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="username">E-mail:</label>
+            <input type="email" id="mail_id" name="E - mail" placeholder="mail id" required>
+        </div>
+        <br>
+        <div>
+            <label for="mobile">Mobile no:</label>
+            <input type="text" id="mobile" name="mobile" placeholder="mobile number" required>
+        </div>
+        <br>
+	<p><strong>Gender:</strong></p>
+    <input type="radio" name="gender" value="male" id="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" value="female" id="female">
+    <label for="female">Female</label><br>
+	<br>
+	 <p><strong>Hobbies:</strong></p>
+    <input type="checkbox" id="reading" name="hobby" value="Reading">
+    <label for="reading">Reading</label>
+    <input type="checkbox" id="traveling" name="hobby" value="Traveling">
+    <label for="traveling">Traveling</label>
+    <input type="checkbox" id="music" name="hobby" value="Music">
+    <label for="music">Music</label>
+	<br><br>
+	<p><strong>Address:</strong></p>
+    <textarea rows="4" cols="50" placeholder="Enter your address here..."></textarea>
+	<br><br>
+	<p><strong>Select District (Kerala):</strong></p>
+    <select name="district">
+        <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+        <option value="Kollam">Kollam</option>
+        <option value="Pathanamthitta">Pathanamthitta</option>
+        <option value="Alappuzha">Alappuzha</option>
+        <option value="Kottayam">Kottayam</option>
+        <option value="Idukki">Idukki</option>
+        <option value="Ernakulam">Ernakulam</option>
+        <option value="Thrissur">Thrissur</option>
+        <option value="Palakkad">Palakkad</option>
+        <option value="Malappuram">Malappuram</option>
+        <option value="Kozhikode">Kozhikode</option>
+        <option value="Wayanad">Wayanad</option>
+        <option value="Kannur">Kannur</option>
+        <option value="Kasaragod">Kasaragod</option>
+    </select>
+	<br><br>
+	 <p><strong>Upload Your Photo:</strong></p>
+        <input type="file" name="photo" accept="image/*">
+	<br><br>
+        <div>
+            <button type="button" onclick="signin()">Sign Up</button>
+        </div>
+    </form>
+<br><br>
+    <p>Already have an account? &nbsp; &nbsp; <button type="button" ><a href="C:\Users\ACER\Desktop\index.html">Login</a></button>
+</p>
+    </center>
+</body>
+</html>

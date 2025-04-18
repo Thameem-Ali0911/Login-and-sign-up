@@ -1,0 +1,19 @@
+body {
+font-family: sans-serif;
+background: url(https://png.pngtree.com/thumb_back/fh260/background/20230203/pngtree-simple-aesthetic-pastel-color-background-with-hand-drawn-leaves-image_1540985.jpg) center fixed ;
+backgound-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+
+margin: 0;
+}
+button a {
+text-decoration: none;
+color: black;
+}
+a {
+text-decoration: none;
+color: black;
+
+}
